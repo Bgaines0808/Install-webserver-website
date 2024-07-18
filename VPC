@@ -1,1 +1,24 @@
 create a vpc using the aws console.
+Once the vpc is available build the server. Spin up the server and connect the ec2 to the vpc you just created. Now build the database
+and connect it to the ec2 you just created.Also create the server creditials you will need to login into the server. You will need to
+write down your server name, user login name, password and database name you will need it later in the project. Once you build the server
+(keep the settings to the default)while still connected to your ec2 you will change the directory to /var/www and create a new subdirectory
+named inc.
+cd /var/www
+mkdir inc
+cd inc
+Create a new file in the inc directory named dbinfo.inc, and then edit the file by calling nano.Add the following contents to the
+dbinfo.inc file. Here, db_instance_endpoint
+<?php
+
+define('DB_SERVER', 'db_instance_endpoint');
+define('DB_USERNAME', 'tutorial_user');
+define('DB_PASSWORD', 'master password');
+define('DB_DATABASE', 'sample');
+?> 
+Save your creditials for the server to the file. Save and close the dbinfo.inc file. Change the directory to /var/www/html.
+Create a new file in the html directory named SamplePage.php, and then edit the file by calling nano (or the editor of your choice).
+Add the following contents to the SamplePage.php file:
+
+
+
