@@ -9,6 +9,8 @@ Data Tier: Manages the storage, retrieval, and manipulation of the applicationâ€
 The fundamental principle of a 3-tier application is the flow of information and requests through the tiers. In this project I built the system first on paper then with the offical aws icons and mapped out the flow of information from layer to layer. I listed all the parts of the system and labeled them all with their own  ip addresses, and if they were present, I also listed the security groups around them. I labled the internet gateway and made it face the public subnet so it can reach the internet. The database is in the private subnet. There is no Nat Gateway there isnt a way for the db to reach the internet. Once I installed the software on the server, saved the server creds and added the contents to the file I was able to see the form on the appear on screen.
 
 ![image](https://github.com/user-attachments/assets/77c4c458-5919-4753-86a7-7f5656a2f196)
+![image](https://github.com/user-attachments/assets/905c66f5-540d-4155-b144-66a06be3e896)
+
 
 
 
