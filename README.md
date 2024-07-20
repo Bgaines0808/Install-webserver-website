@@ -12,7 +12,9 @@ The fundamental principle of a 3-tier application is the flow of information and
 ![image](https://github.com/user-attachments/assets/905c66f5-540d-4155-b144-66a06be3e896)
 
 The infrastructure tier is the network and systems needed to support the webserver and database. In this project I am using the aws rds database and placingn it in a private subnet. While a ec2 will have software installed on it to host a Wordpress website on the public subnet. The ec2 will be facing and accessable to the internet while the database is secured with security groups or firewalls.
+
 The backend tier of my project I have a apache server and mysql database both in separate subnets.
+
 The presentation tier is the website that will host all my projects.
 
 
