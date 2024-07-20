@@ -1,6 +1,6 @@
 create a vpc using the aws console.
-Once the vpc is available build the server. Spin up the server and connect the ec2 to the vpc you just created. Now build the database
-and connect it to the ec2 you just created.Also create the server creditials you will need to login into the server. You will need to
+Once the vpc is available build the server. Start the server and connect the ec2 to the vpc you just created. Now build the database
+and connect it to the ec2 you just created. Also create the server creditials, you will need them to login into the server. You will need to
 write down your server name, user login name, password and database name you will need it later in the project. Once you build the server
 (keep the settings to the default)while still connected to your ec2 you will change the directory to /var/www and create a new subdirectory
 named inc.
