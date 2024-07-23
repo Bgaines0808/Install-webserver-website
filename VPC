@@ -19,7 +19,10 @@ define('DB_DATABASE', 'sample');
 Save your creditials for the server to the file. Save and close the dbinfo.inc file. Change the directory to /var/www/html.
 Create a new file in the html directory named SamplePage.php, and then edit the file by calling nano (or the editor of your choice).
 Add the following contents to the SamplePage.php file:
-After saved the file and running the page again the form apppeared on the screen asking for my user name and address.
+After I saved the file and ran the page again the form apppeared on the screen asking for my user name and address. 
+
+
+
 
 
 
